@@ -1,0 +1,2 @@
+  git config --global user.email "del20024@byui.edu"
+  git config --global user.name "Ederdeleon"
