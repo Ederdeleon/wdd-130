@@ -1,4 +1,75 @@
+#content {
+    display:grid;
+    background-color: rgb(196, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
 .logo {
 width: 200px;
-
 }
+header {
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: aqua;
+    opacity:.8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: pink;
+    color: black;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 80px;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 80px;
+    
+}
+main img {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 100%;
+    padding: 10px;
+}
+main p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-size: large;
+    
+}
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: aqua;
+    opacity:.8;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+footer h4:hover {
+    background-color: pink;
+    color: black;
+}
+footer h4 {
+    font-size: 1.2em;
+    grid-column: 2/3;
+}  
+footer a:hover {
+    background-color: pink;
+    color: black;
+}
+
+
