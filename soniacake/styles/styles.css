@@ -115,6 +115,60 @@ h1{
     width: 90%;
     padding: 10px;
 }
+#contact {
+    display:grid;
+    background-color: rgb(196, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact main  {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+#h1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-content: center;
+    width: 100%;
+    padding: 10px;
+}
+#tres {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 90%;
+    padding: 10px;
+}
+#cuatro {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    width: 100%;
+    padding: 10px;
+}
+#cinco {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 10px;
+    
+}
+#seis {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    width: 90%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .btn {
     border: none; /* Remove borders */
